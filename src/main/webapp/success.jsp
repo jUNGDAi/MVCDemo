@@ -21,6 +21,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container"><h1 class="bg-success text-primary text-center">Sign in already!</h1></div>
+        <div class="container"><h1 class="bg-success text-primary text-center">Hi! ${requestScope['user'].username}</h1></div>
     </body>
 </html>
